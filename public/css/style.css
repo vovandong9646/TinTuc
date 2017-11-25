@@ -1,0 +1,85 @@
+*{margin:0px;padding:0px;}
+body{
+    padding-top:90px;
+}
+.chitiet img {
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin-right:15px;
+}
+.tomtat{
+    font-style:italic;
+}
+
+.chitiet {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c4c8ce;
+    padding: 10px;
+}
+.chitiet_noidung{
+    margin-bottom:10px;
+}
+.chitiet_noidung h3{
+    padding:0px;
+    margin:0px;
+    margin-bottom:20px;
+    font-weight:bold;
+}
+
+.chitiet:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background: #5d88c6;
+    color: red;
+}
+
+.navbar-brand img {
+    padding: 0px;
+    margin-top: -25px;
+    width: 100px;
+    height: 70px;
+}
+nav.navbar.navbar-default {
+    background: #abb2bc;
+    border-radius: 0px;
+    padding: 10px 0px;
+}
+.menu{
+    margin:15px 0px 10px -15px;
+}
+.noidung{
+     margin:15px 0px 10px 0px;
+}
+.cha{
+    border:1px solid #c4c8ce;
+    padding:10px 20px;
+    margin:-15px -15px 0px -15px;
+    border-right:none;
+    border-left:none;
+}
+.con{
+    margin-left:20px;
+    border-left:1px solid #c4c8ce;
+    margin-right:-15px;
+    display:none;
+}
+.con ul{
+    list-style-type:none; 
+}
+.con ul li{
+    border-bottom:1px solid #c4c8ce;
+    padding:5px 5px 5px 20px;
+
+}
+.menu-doc{
+    margin-bottom:18px;
+}
